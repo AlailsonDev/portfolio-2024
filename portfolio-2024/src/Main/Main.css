@@ -1,0 +1,54 @@
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.2em;
+    background-image: url('../assets/teclado3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+
+.site-title {
+    background: linear-gradient(270deg, rgba(194,46,208,1) 36%, rgba(95,250,224,1) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.main-img {
+    border-radius: 50%;
+    width: 10em;
+}
+
+.main-paragraph {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.social-img {
+    display: flex;
+    column-gap: 2em;
+}
+
+.icons-img {
+    width: 1.5em;
+}
+
+.contact-btn {
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.contact-btn:hover {
+    background: linear-gradient(270deg, rgba(194,46,208,1) 36%, rgba(95,250,224,1) 80%);
+}

@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.575);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100vw;
+    padding: 1.2em 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.666);
+  }
+
+  .site-subtitle {
+    background: linear-gradient(270deg, rgba(194,46,208,1) 36%, rgba(95,250,224,1) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.8rem;
+  }
+
+  .links-style {
+    font-weight: 300;
+  }
+  
+  .navbar-toggle {
+    cursor: pointer;
+    display: none;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    column-gap: 1em;
+  }
+  
+  .navbar-menu a {
+    color: rgba(95,250,224,1);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    transition: 0.5s;
+  }
+
+  .navbar-menu a:hover {
+    color: rgb(195, 46, 208);
+  }
+  
+  @media screen and (max-width: 768px) {
+   
+    .navbar {
+        justify-content: space-around;
+        column-gap: 50%;
+        
+    }
+
+    .navbar-menu {
+      display: none;
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+
+    .navbar-toggle .bar {
+      transition: transform 0.5s, opacity 1s;
+    }
+  
+    .navbar-toggle.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .navbar-toggle.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .navbar-toggle.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+      transition: 0.4s;
+    }
+  
+    .navbar-menu.active {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      background-color: #333333db;
+      width: 100vw;
+      height: 100vh;
+      top: 4.1em;
+      left: 0;
+      border-bottom-right-radius: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+  
+    .navbar-menu.active a {
+      margin: 0.6em;
+      color: white;
+      font-weight: 400;
+      font-size: 1.5em;
+    }
+  }
