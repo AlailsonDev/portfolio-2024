@@ -15,7 +15,7 @@ const Sobre = () => {
     return (
         <div className='about'>
             <aside className='about-left'>
-                <h2 className='about-title'>Sobre</h2>
+                <h2 id='sobre-id' className='about-title'>Sobre</h2>
                 <p className='about-paragraph'>
                     <span className='hello'>Olá</span>, meu nome é Alailson e sou um desenvolvedor que reside em Recife.
                     Tenho experiência na criação de interfaces web intuitivas e responsivas e 

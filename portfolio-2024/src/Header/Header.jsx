@@ -18,8 +18,8 @@ const Header = () => {
       </div>
       <div className={`navbar-menu ${menuActive ? 'active' : ''}`} id="navbarMenu">
         <a className='links-style' href="#" onClick={toggleMenu}>Home</a>
-        <a className='links-style' href="#" onClick={toggleMenu}>Sobre</a>
-        <a className='links-style' href="#" onClick={toggleMenu}>Serviços</a>
+        <a className='links-style' href="#sobre-id" onClick={(e) => handleScroll(e, 'sobre')}>Sobre</a>
+        <a className='links-style' href="#servicos" onClick={(e) => handleScroll(e, 'servicos')}>Serviços</a>
         <a className='links-style' href="#" onClick={toggleMenu}>Contatos</a>
         <a className='links-style' href="#" onClick={toggleMenu}>Currículo</a>
       </div>
