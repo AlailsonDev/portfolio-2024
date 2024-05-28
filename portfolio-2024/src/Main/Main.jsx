@@ -12,9 +12,9 @@ const Main = () => {
         <h1 className='site-title'>Alailson Barbosa</h1>
         <p className='main-paragraph'>Web Developer</p>
         <div className='social-img'>
-        <img className='icons-img' src={instagram} alt="Instagram" />
-        <img className='icons-img' src={linkedin} alt="Linkedin" />
-        <img className='icons-img' src={github} alt="Github" />
+        <a href="https://www.instagram.com/alailsonbcsilva/" target='blank'><img className='icons-img' src={instagram} alt="Instagram" /></a>
+        <a href="https://www.linkedin.com/in/alailsonbarbosa/" target='blank'><img className='icons-img' src={linkedin} alt="Linkedin" /></a>
+        <a href="https://github.com/AlailsonDev" target='blank'><img className='icons-img' src={github} alt="Github" /></a>
         </div>
         <a className='contact-btn' href="#contatos">Contato</a>
     </main>
