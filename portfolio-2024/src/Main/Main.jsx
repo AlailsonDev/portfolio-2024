@@ -16,7 +16,7 @@ const Main = () => {
         <img className='icons-img' src={linkedin} alt="Linkedin" />
         <img className='icons-img' src={github} alt="Github" />
         </div>
-        <a className='contact-btn' href="#">Contato</a>
+        <a className='contact-btn' href="#contatos">Contato</a>
     </main>
 
     )

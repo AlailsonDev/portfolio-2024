@@ -23,7 +23,7 @@ const Header = () => {
         <a className='links-style' href="#" onClick={toggleMenu}>Home</a>
         <a className='links-style' href="#sobre-id" onClick={(e) => handleScroll(e, 'sobre')}>Sobre</a>
         <a className='links-style' href="#servicos" onClick={(e) => handleScroll(e, 'servicos')}>Serviços</a>
-        <a className='links-style' href="#" onClick={toggleMenu}>Contatos</a>
+        <a className='links-style' href="#contatos" onClick={toggleMenu}>Contatos</a>
         <a className='links-style' href="#" onClick={toggleMenu}>Currículo</a>
       </div>
     </div>
