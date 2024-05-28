@@ -8,7 +8,8 @@
 
 .hello {
     /* background: linear-gradient(270deg, rgba(194,46,208,1) 36%, rgba(95,250,224,1) 80%); */
-    background: linear-gradient(270deg, rgba(72, 0, 72, 1) 10%, rgba(0, 31, 63, 1) 99%);
+    /* background: linear-gradient(270deg, rgba(72, 0, 72, 1) 10%, rgba(0, 31, 63, 1) 99%); */
+    background: linear-gradient(270deg, rgb(210, 1, 210) 10%, rgb(1, 99, 197) 99%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -25,6 +26,7 @@
 .about-paragraph {
     font-size: 1.2rem;
     line-height: 1.5em;
+    text-align: center;
 }
 
 .about-right {
