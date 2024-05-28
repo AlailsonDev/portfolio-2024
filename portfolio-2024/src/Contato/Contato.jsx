@@ -37,6 +37,9 @@ const Contato = () => {
         })
     }
 
+    
+        const phoneNumber = '+5581987176814';
+    
     return (
         <div className="contato">
             <h2 id='contatos' className="contato-title">Contatos</h2>
@@ -50,7 +53,7 @@ const Contato = () => {
                 </aside>
                 <aside className='contato-aside' id="contato-right">
                     <div className='div-contato'>
-                        <img className='contato-img' src={telefone} alt="Telefone" />
+                       <a href={`tel:${phoneNumber}`}><img className='contato-img' src={telefone} alt="Telefone" /></a> 
                         <h3 className='contato-subtitle'>Telefone</h3>
                         <p className='contato-paragraph'>(81) 98717-6814</p>
                     </div>
