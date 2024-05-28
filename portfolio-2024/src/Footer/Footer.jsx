@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <p className='footer-paragraph'>
-            &copy; 2024 Alailson Barbosa. Todos os direitos reservados.
+            &copy; 2024 • Alailson Barbosa
             </p>
         </footer>
     )
