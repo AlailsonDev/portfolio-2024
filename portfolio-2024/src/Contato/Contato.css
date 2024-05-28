@@ -1,0 +1,103 @@
+
+.contato-title {
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 1em;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+}
+
+.contato-img {
+    width: 2em;
+}
+
+.contato-aside {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+}
+
+#contato-left {
+    row-gap: 1em;
+}
+
+.input-form {
+    height: 3em;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: 1px solid rgb(193, 193, 193);
+}
+
+.textarea-form {
+    height: 15em;
+    padding: 10px;
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+#contato-right {
+    padding: 1em 0;
+    justify-content: space-around;
+    border: 1px solid rgb(193, 193, 193);
+    width: 30%;
+    border-radius: 5px;
+    align-items: center;
+    -webkit-box-shadow: 0px 1px 7px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 7px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 7px 2px rgba(0,0,0,0.75);
+    height: 25em;
+}
+
+.div-contato {
+    text-align: center;
+    line-height: 1.5em;
+    cursor: pointer;
+    width: 45%;
+}
+
+.submit-btn {
+    /* margin-left: 14%; */
+    width: 40%;
+    height: 2.5em;
+    padding: 0.3em 2.5em;
+    font-size: 1.5em;
+    background: linear-gradient(270deg, rgb(210, 1, 210) 10%, rgb(1, 99, 197) 99%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .form {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        row-gap: 2em;
+    }
+
+    .submit-btn {
+        font-size: 1em;
+        width: 100%;
+        height: 3em;
+    }
+
+    .contato-aside{
+        width: 90%;
+    }
+
+    #contato-right {
+        width: 90%;
+    }
+}

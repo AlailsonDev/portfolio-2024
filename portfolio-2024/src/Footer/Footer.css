@@ -1,0 +1,10 @@
+.footer {
+    margin-top: 10%;
+    padding: 1.2em;
+    background: linear-gradient(270deg, rgba(72, 0, 72, 1) 10%, rgba(0, 31, 63, 1) 99%);
+}
+
+.footer-paragraph {
+    color: white;
+    text-align: center;
+}
