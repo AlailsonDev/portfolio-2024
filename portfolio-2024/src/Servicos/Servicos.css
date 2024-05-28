@@ -49,7 +49,7 @@
 
   .slick-prev, .slick-next {
     font-size: 0; /* Esconde o conteúdo original das setas */
-    background-color: #fff; /* Cor de fundo das setas */
+    background-color: transparent; /* Cor de fundo das setas */
     border-radius: 50%; /* Deixa as setas arredondadas */
     width: 40px;
     height: 40px;
