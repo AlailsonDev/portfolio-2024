@@ -62,7 +62,8 @@ body {
    
     .navbar {
         justify-content: space-around;
-        column-gap: 50%;
+        column-gap: 20%;
+      
         
     }
 
