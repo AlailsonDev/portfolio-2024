@@ -59,23 +59,22 @@
   }
   
   .slick-prev::before, .slick-next::before {
-    font-size: 20px; /* Tamanho do ícone */
-    color: #333; /* Cor do ícone */
+    font-size: 20px;
+    color: #333;
   }
   
-  /* Ajuste de posição das setas */
   .slick-prev {
-    left: -50px; /* Ajuste a posição conforme necessário */
+    left: -50px;
   }
   
   .slick-next {
-    right: -50px; /* Ajuste a posição conforme necessário */
+    right: -50px;
   }
 
   @media screen and (max-width: 768px) {
 
     .slick-prev {
-      left: -35px; /* Ajuste a posição conforme necessário */
+      left: -35px; 
     }
     
     .slick-next {

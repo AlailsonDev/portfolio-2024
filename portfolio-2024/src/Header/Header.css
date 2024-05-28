@@ -44,7 +44,9 @@ body {
   .navbar-menu {
     display: flex;
     column-gap: 1em;
+
   }
+
   
   .navbar-menu a {
     /* color: rgba(95,250,224,1); */
@@ -64,8 +66,6 @@ body {
     .navbar {
         justify-content: space-around;
         column-gap: 20%;
-      
-        
     }
 
     .navbar-menu {
@@ -99,6 +99,8 @@ body {
       flex-direction: column;
       position: fixed;
       background-color: #333333db;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
       width: 100vw;
       height: 100vh;
       top: 4.5em;

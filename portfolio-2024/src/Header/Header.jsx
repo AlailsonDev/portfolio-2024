@@ -4,9 +4,12 @@ import './Header.css';
 const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
 
+
   const toggleMenu = () => {
     setMenuActive(!menuActive);
+
   };
+
 
   return (
     <div className="navbar">
