@@ -46,4 +46,41 @@
     font-size: 1rem;
     line-height: 1.5em;
   }
+
+  .slick-prev, .slick-next {
+    font-size: 0; /* Esconde o conteúdo original das setas */
+    background-color: #fff; /* Cor de fundo das setas */
+    border-radius: 50%; /* Deixa as setas arredondadas */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slick-prev::before, .slick-next::before {
+    font-size: 20px; /* Tamanho do ícone */
+    color: #333; /* Cor do ícone */
+  }
+  
+  /* Ajuste de posição das setas */
+  .slick-prev {
+    left: -50px; /* Ajuste a posição conforme necessário */
+  }
+  
+  .slick-next {
+    right: -50px; /* Ajuste a posição conforme necessário */
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .slick-prev {
+      left: -35px; /* Ajuste a posição conforme necessário */
+    }
+    
+    .slick-next {
+      right: -35px; /* Ajuste a posição conforme necessário */
+    }
+
+  }
   
