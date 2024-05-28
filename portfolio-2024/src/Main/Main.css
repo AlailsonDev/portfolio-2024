@@ -56,3 +56,11 @@
     background: linear-gradient(270deg, rgb(210, 1, 210) 10%, rgb(1, 99, 197) 99%);
 
 }
+
+@media screen and (max-width: 768px) {
+
+    .main {
+        background-position: 40%;
+    }
+
+}
