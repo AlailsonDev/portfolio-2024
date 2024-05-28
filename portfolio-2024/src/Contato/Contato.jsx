@@ -36,9 +36,9 @@ const Contato = () => {
             console.log("ERRO: ", err)
         })
     }
-
-    
         const phoneNumber = '+5581987176814';
+        const whatsappNumber = '+5581987176814';
+        const emailAddress = 'alailsonbcsilva@gmail.com';
     
     return (
         <div className="contato">
@@ -53,17 +53,17 @@ const Contato = () => {
                 </aside>
                 <aside className='contato-aside' id="contato-right">
                     <div className='div-contato'>
-                       <a href={`tel:${phoneNumber}`}><img className='contato-img' src={telefone} alt="Telefone" /></a> 
+                       <a href={`tel:${phoneNumber}`} target='blank'><img className='contato-img' src={telefone} alt="Telefone" /></a> 
                         <h3 className='contato-subtitle'>Telefone</h3>
                         <p className='contato-paragraph'>(81) 98717-6814</p>
                     </div>
                     <div className='div-contato'>
-                        <img className='contato-img' src={whatsapp} alt="Whatsapp" />
+                       <a href={`https://wa.me/${whatsappNumber}`} target='_blank'><img className='contato-img' src={whatsapp} alt="Whatsapp" /></a> 
                         <h3 className='contato-subtitle'>Whatsapp</h3>
                         <p className='contato-paragraph'>(81) 98717-6814</p>
                     </div>
                     <div className='div-contato'>
-                        <img className='contato-img' src={emailImg} alt="E-mail" />
+                        <a href={`mailto:${emailAddress}`} target='_blank'><img className='contato-img' src={emailImg} alt="E-mail" /></a>
                         <h3 className='contato-subtitle'>E-mail</h3>
                         <p className='contato-paragraph'>alailsonbcsilva@gmail.com</p>
                     </div>
