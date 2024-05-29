@@ -52,20 +52,20 @@ const Contato = () => {
                     <input className='submit-btn' type="submit" id="submit"/>
                 </aside>
                 <aside className='contato-aside' id="contato-right">
-                    <div className='div-contato'>
-                       <a href={`tel:${phoneNumber}`} target='blank'><img className='contato-img' src={telefone} alt="Telefone" /></a> 
+                <div className='div-contato'>
+                <a href={`tel:${phoneNumber}`} target='blank'><img className='contato-img' src={telefone} alt="Telefone" /> 
                         <h3 className='contato-subtitle'>Telefone</h3>
-                        <p className='contato-paragraph'>(81) 98717-6814</p>
+                        <p className='contato-paragraph'>(81) 98717-6814</p></a>
                     </div>
                     <div className='div-contato'>
-                       <a href={`https://wa.me/${whatsappNumber}`} target='_blank'><img className='contato-img' src={whatsapp} alt="Whatsapp" /></a> 
+                       <a href={`https://wa.me/${whatsappNumber}`} target='_blank'><img className='contato-img' src={whatsapp} alt="Whatsapp" />
                         <h3 className='contato-subtitle'>Whatsapp</h3>
-                        <p className='contato-paragraph'>(81) 98717-6814</p>
+                        <p className='contato-paragraph'>(81) 98717-6814</p></a> 
                     </div>
                     <div className='div-contato'>
-                        <a href={`mailto:${emailAddress}`} target='_blank'><img className='contato-img' src={emailImg} alt="E-mail" /></a>
+                        <a href={`mailto:${emailAddress}`} target='_blank'><img className='contato-img' src={emailImg} alt="E-mail" />
                         <h3 className='contato-subtitle'>E-mail</h3>
-                        <p className='contato-paragraph'>alailsonbcsilva@gmail.com</p>
+                        <p className='contato-paragraph'>alailsonbcsilva@gmail.com</p></a>
                     </div>
                 </aside>
             </form>

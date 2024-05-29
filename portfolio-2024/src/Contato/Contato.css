@@ -62,11 +62,17 @@
 
 }
 
+
 .div-contato {
     text-align: center;
     line-height: 1.5em;
     cursor: pointer;
     width: 45%;
+}
+
+.div-contato a {
+    text-decoration: none;
+    color: black;
 }
 
 .submit-btn {
