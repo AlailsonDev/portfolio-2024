@@ -1,5 +1,5 @@
 import './Main.css'
-import photo from '../assets/foto.jpeg'
+import photo from '../assets/foto2.jpeg'
 import instagram from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.png'
 import github from '../assets/github.png'
