@@ -8,6 +8,7 @@ const Main = () => {
     return (
 
     <main className="main">
+        <div className='main-content'>
         <img src={photo} alt="photo" className='main-img'/>
         <h1 className='site-title'>Alailson Barbosa</h1>
         <p className='main-paragraph'>Web Developer</p>
@@ -17,6 +18,7 @@ const Main = () => {
         <a href="https://github.com/AlailsonDev" target='blank'><img className='icons-img' src={github} alt="Github" /></a>
         </div>
         <a className='contact-btn' href="#contatos">Contato</a>
+        </div>
     </main>
 
     )
