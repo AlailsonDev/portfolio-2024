@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <div className="navbar">
-        <h2 className='site-subtitle'>Alailson Barbosa</h2>
+        <h2 className='site-subtitle'>Alailson.Dev</h2>
       <div className={`navbar-toggle ${menuActive ? 'active' : ''}`} onClick={toggleMenu}>
         <div className="bar"></div>
         <div className="bar"></div>
@@ -24,7 +24,7 @@ const Header = () => {
         <a className='links-style' href="#sobre-id" onClick={(e) => handleScroll(e, 'sobre')}>Sobre</a>
         <a className='links-style' href="#servicos" onClick={(e) => handleScroll(e, 'servicos')}>Serviços</a>
         <a className='links-style' href="#contatos" onClick={toggleMenu}>Contatos</a>
-        <a className='links-style' href="#" onClick={toggleMenu}>Currículo</a>
+        {/* <a className='links-style' href="#" onClick={toggleMenu}>Currículo</a> */}
       </div>
     </div>
   );
